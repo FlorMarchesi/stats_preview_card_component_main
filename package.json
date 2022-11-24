@@ -1,0 +1,25 @@
+{
+  "name": "stats_preview_card_component_main",
+  "version": "1.0.0",
+  "description": "Proyecto Frontendmentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorMarchesi/stats_preview_card_component_main.git"
+  },
+  "author": "Florencia Marchesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorMarchesi/stats_preview_card_component_main/issues"
+  },
+  "homepage": "https://github.com/FlorMarchesi/stats_preview_card_component_main#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
